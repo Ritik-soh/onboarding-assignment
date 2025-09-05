@@ -4,8 +4,8 @@ require_relative 'greed_score'
 
 class Game
   MIN_ENTRY_SCORE = 300
-  END_GAME_SCORE   = 3000
-  DICE_COUNT       = 5
+  END_GAME_SCORE = 3000
+  DICE_COUNT = 5
 
   def initialize
     @players = []
